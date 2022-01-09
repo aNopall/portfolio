@@ -300,7 +300,7 @@ span.hire:hover {
     background-color: #212121;
     color: #dc143c;
     border: 3px solid #444;
-    border-radius: 3.125rem;
+    border-radius: 0.625rem;
     height: 0.9rem;
     padding: 0;
 }
