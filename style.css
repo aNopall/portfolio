@@ -242,7 +242,7 @@ hr {
     position: absolute;
     top: 0;
     left: 20px;
-    border-left: 1px solid #444;
+    border-left: 1px dashed #444;
     bottom: 0;
 }
 
