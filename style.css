@@ -27,6 +27,12 @@ li {
     margin-right: auto;
 }
 
+.container-4 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title {
     display: inline-block;
     color: #fff;
@@ -312,3 +318,11 @@ span.hire:hover {
 }
 
 /* Portfolio End */
+
+/* Contact Me Start */
+
+.contact-me {
+    color: #fff;
+}
+
+/* Contact Me End */
