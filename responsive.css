@@ -1,0 +1,46 @@
+@media only screen and (max-width: 680px) {
+    .container-2 {
+        max-width: 90%;
+    }
+    .container-3 {
+        max-width: 90%;
+    }
+    hr {
+        width: 12%;
+    }
+    .jumbotron {
+        max-width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    .jumbotron img {
+        width: 220px;
+    }
+    .jumbotron h4 {
+        font-size: 14px;
+    }
+    .jumbotron h1 {
+        font-size: 24px;
+    }
+    .jumbotron p {
+        font-size: 12px;
+    }
+    .wid h1 {
+        margin: 30px auto 20px auto;
+    }
+    .wid p {
+        margin-bottom: 20px;
+    }
+    div.card {
+        width: 285px;
+        height: 285px;
+    }
+    img.img-port {
+        height: 235px;
+    }
+    img.wm {
+        margin: 235px 0 0 235px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+}

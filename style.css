@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+    background-color: #212121;
+    font-family: 'Poppins',Helvetica,sans-serif;
+} */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(95, 95, 95); 
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title::after {
+    content: '';
+    border-bottom: 0.2rem solid #dc143c;
+    width: 2.5rem;
+    display: block;
+    margin: 0.313rem 0;
+    left: 0;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.container-2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-3 {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Poppins';
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #888;
+    font-family: 'Poppins';
+    font-weight: 500;
+    transition-duration: 0.8s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(asset/icon/hamburger.png);
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent; 
+}
+
+span.contact {
+    background-color: #dc143c;
+    color: #fff;
+    border: 2px solid #dc143c;
+    border-radius: 3.125rem;
+    padding: 5px 20px;
+    transition-duration: 0.8s;
+}
+
+span.contact:hover {
+    background-color: #212121;
+}
+
+/* jumbotron */
+.jumbotron {
+    font-family: 'Poppins';
+    background-color: #212121;
+    color: #fff;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+}
+
+.row-home {
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
+
+.jumbotron h4 {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.jumbotron p {
+    color: #d5d5d5;
+    font-size: 16px;
+}
+
+/* wid */
+.wid {
+    color: #fff;
+}
+
+.wid h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 70px 0 32px 0;
+}
+
+.wid h4 {
+    font-family: 'Poppins';
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 40px;
+}
+
+.wid p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #d5d5d5;
+    margin: 0 40px;
+}
+
+.bi-mortarboard-fill::before {
+    position: absolute;
+}
+
+.bi-briefcase-fill::before {
+    position: absolute;
+}
+
+/* edu&exp */
+.edu {
+    color: #fff;
+}
+
+.edu h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 70px 0 32px 0;
+}
+
+.edu h4 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 40px;
+}
+
+.edu p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #d5d5d5;
+    margin: 0 40px 40px 40px;
+}
+
+.edu h6 {
+    border: 2px solid #dc143c;
+    color: #d5d5d5;
+    font-size: 12px;
+    padding: 2px 10px;
+    display: inline-block;
+    margin: 0 40px 0 40px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.bi-file-earmark-code-fill::before {
+    position: absolute;
+}
+
+.bi-display::before {
+    position: absolute;
+}
+
+/* port */
+.port {
+    color: #fff;
+}
+
+.port h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 70px 0 32px 0;
+}
+
+div.card {
+    width: 335px;
+    height: 335px;
+    background-color: #383838;
+    border-radius: 20px;
+    margin: 0 0 40px 0;
+}
+
+img.img-port {
+    /* width: 285px; */
+    height: 285px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+img.wm {
+    position: absolute;
+    opacity: 0;
+    width: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgb(48, 48, 48);
+    margin: 285px 0 0 285px;
+    transition: all 200ms ease-out;
+}
+
+img.img-port:hover + img.wm {
+    opacity: 1;
+}
+
+.card a {
+    margin: auto;
+}
+
+.card a:hover + img.wm {
+    opacity: 1;
+}
+
+/* footer */
+.footer {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 150px 0 30px 0;
+}
