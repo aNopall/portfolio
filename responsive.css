@@ -30,6 +30,18 @@
     .wid p {
         margin-bottom: 20px;
     }
+    .edu h1 {
+        margin: 30px auto 20px auto;
+    }
+    .edu p {
+        margin-bottom: 20px;
+    }
+    .port h1 {
+        margin: 30px auto 20px auto;
+    }
+    .port p {
+        margin-bottom: 20px;
+    }
     div.card {
         width: 285px;
         height: 285px;
